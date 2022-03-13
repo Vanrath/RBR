@@ -1,0 +1,191 @@
+.row{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    padding-top: 1rem;
+}
+.home{
+    padding: 2rem 9%;
+}
+.cover-menu{
+    display: flex;
+    justify-content:start;
+}
+.all-food{
+    margin-top: 6rem;
+    
+}
+.text a{
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.photos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+.image img{
+    width:455px;
+    animation:float 3s linear infinite;
+}
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(3rem);
+    }
+}
+@media(max-width:899px){
+    html{
+        font-size: 70%;
+    }
+    section{
+        padding: 1rem 5%;
+    }
+    .image img{
+        width:345px;
+    }
+   
+    
+    
+}
+
+.order button {
+    border-radius: 34px;
+    padding: 13px;
+    border: 2px solid orange;
+    box-shadow:  5px 2px 15px orange;
+    background-color: transparent;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+.order span{
+    width:0;
+    height:100%;
+    bottom: 0;
+    position: absolute;
+    left:0;
+    background-color: orange;
+    border-radius: 34px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.order button:hover span{
+    background-color: orange;
+    width:100%;
+}
+.order button:hover{
+    border: none;
+}
+.text-write span{
+    font-size: 23px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-write h1{
+    font-size: 23px;
+    font-family: fantasy;
+    color: green;
+}
+.order a{
+    text-decoration: none;
+    color: green;
+}
+.title h3{
+    text-align: center;
+    color: orange;
+}
+.type-food h3{
+    text-align: center;
+}
+.type-food span{
+    color: red;
+}
+
+ #button  {
+    border-radius: 34px;
+    padding: 13px;
+    border: 2px solid orange;
+    box-shadow:  5px 2px 15px orange;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+#mark {
+    width:0;
+    height:100%;
+    bottom: 0;
+    position: absolute;
+    left:0;
+    background-color: orange;
+    border-radius: 34px;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+#button:hover #mark{
+    background-color: orange;
+    width:100%;
+}
+#url{
+    text-decoration: none;
+  
+}
+.special-menu span{
+    color: red;
+
+}
+.special-menu h3 {
+    text-align: center;
+}
+
+.type-food{
+    background-color:transparent;
+    background-color: #eee;
+}
+.image1 img{
+   width:245px;
+   margin: 1rem 0;
+}
+.special-menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap:2rem;
+    margin-top: 3rem;
+    padding: 0.5rem;
+   
+}
+.dis1{
+    width:23px;
+    background-color: #fff;
+    border-radius: .5rem;
+    border: .1rem solid #eee;
+    box-shadow:5px 2px 15px #eee ;
+    text-align: center;
+    width:334px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
